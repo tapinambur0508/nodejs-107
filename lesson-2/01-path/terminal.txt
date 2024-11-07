@@ -1,0 +1,15 @@
+> const path = require("node:path")
+undefined
+> path.resolve()
+'/Users/vmudrij'
+> path.resolve("a/b", "..", "c/d", "./e", "../..", "data")
+'/Users/vmudrij/a/c/data'
+> path.join()
+'.'
+> path.join("a/b", "..", "c/d", "./e", "../..", "data")
+'a/c/data'
+> path.resolve("a/b", "/c/d", "..", "./e", "./data", "/backup")
+'/backup'
+> path.join("a/b", "/c/d", "..", "./", "./data", "/backup")
+'a/b/c/data/backup'
+>

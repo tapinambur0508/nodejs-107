@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@mail.com",
+    "phone": "+380660001122",
+    "job": "CEO"
+  }
+]
