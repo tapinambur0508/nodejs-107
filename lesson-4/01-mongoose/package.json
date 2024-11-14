@@ -1,0 +1,21 @@
+{
+  "name": "01-mongoose",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config index.js",
+    "start": "node -r dotenv/config index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7"
+  }
+}
