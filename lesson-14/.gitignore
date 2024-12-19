@@ -1,0 +1,6 @@
+/src/tmp/*
+!/src/tmp/.gitkeep
+/src/public/*
+!/src/public/.gitkeep
+/src/public/avatars/*
+!/src/public/avatars/.gitkeep
